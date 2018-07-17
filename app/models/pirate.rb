@@ -8,11 +8,11 @@ class Pirate
     @weight =weight
     @height = height
     PIRATES<<self 
-    
+
   end
 
   def self.all
-    self.all
+    PIRATES
   end
 
 end
