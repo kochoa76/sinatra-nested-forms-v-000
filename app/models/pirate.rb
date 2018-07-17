@@ -8,7 +8,6 @@ class Pirate
     @weight =args[:weight]
     @height = args[:height]
     PIRATES<<self
-
   end
 
   def self.all
