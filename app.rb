@@ -20,9 +20,9 @@ module FormsLab
       Ship.new(details)
     end
 
-    @ships= Ships.all 
+    @ships= Ships.all
 
     erb :show
-  end 
+    end 
   end
 end
