@@ -1,11 +1,13 @@
 <h1>Make your form here</h1>
 <form method="POST" action="/show">
   <label for ="pirate_name"> Name </label>
-  <input type="text" id="pirate_name" name="pirate[name]">
-  <label for ="pirate_weight"> Weight </label> 
-  <input type="text" id="pirate_weight" name="pirate[weight]">
+  <input type="text" id="pirate_name" name="pirate[name]"><br>
+  <label for ="pirate_weight"> Weight </label>
+  <input type="text" id="pirate_weight" name="pirate[weight]"><br>
   <label for ="pirate_height"> Height </label>
-  <input type="text" id="pirate_height" name="pirate[height]">
+  <input type="text" id="pirate_height" name="pirate[height]"><br><br>
+
+  
   <label for="ship_name_1"> Ships 1:</label>
   <input type="text" id="ship_name_1" name="pirate[ships][][name]">
   <input type="text" id="ship_type_1" name="pirate[ships][][type]">
@@ -14,4 +16,4 @@
   <input type="text" id="ship_name_2" name="pirate[ships][][name]">
   <input type="text" id="ship_type_2" name="pirate[ships][][type]">
   <input type="text" id="ship_booty_2" name="pirate[ships][][booty]">
-</form> 
+</form>
